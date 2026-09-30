@@ -1,4 +1,11 @@
-# VIBE_GUIDER // SYSTEM ONLINE
+# vibe-guider // SYSTEM ONLINE
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.0-646CFF.svg?logo=vite)](https://vitejs.dev/)
+[![Gemini API](https://img.shields.io/badge/Google%20GenAI-SDK-orange.svg)](https://ai.google.dev/)
+
 
 ![Vibe Guider Dashboard](image_0.png)
 
@@ -59,3 +66,72 @@ The VIBE_GUIDER UI is built for efficiency and immersion:
 
 ## ░░ Getting Started
 
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or pnpm
+- Google Gemini API Key
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abhinavreddy1408-cyber/vibe-guider.git
+   cd vibe-guider
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env` file in the project root:
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Launch development server:**
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+vibe-guider/
+├── components/           # CRT terminals, HUD layouts, and chat widgets
+│   ├── ChatInterface.tsx # Conversational AI interaction window
+│   ├── Dashboard.tsx     # Module navigation and CPU/memory telemetry
+│   ├── VideoAnalyzer.tsx # Multimodal video comprehension workbench
+│   └── MarkdownRenderer.tsx # Cyberpunk formatted text renderer
+├── services/             # Gemini API communication handlers
+│   └── geminiService.ts  # @google/genai SDK integration
+├── types.ts              # System state and message type definitions
+├── index.html            # Web entry point with CRT shader filters
+└── package.json
+```
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] WebGL-accelerated 3D CRT curvature and phosphor glow effects.
+- [ ] Direct audio-in / audio-out streaming via Gemini Multimodal Live API.
+- [ ] Exportable session transcripts in encrypted JSON format.
+
+---
+
+## 📄 License
+
+Distributed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+**Abhinav Reddy** — [@abhinavreddy1408-cyber](https://github.com/abhinavreddy1408-cyber)  
+Project Link: [https://github.com/abhinavreddy1408-cyber/vibe-guider](https://github.com/abhinavreddy1408-cyber/vibe-guider)
